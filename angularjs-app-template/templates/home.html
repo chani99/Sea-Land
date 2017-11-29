@@ -1,0 +1,27 @@
+<div ng-controller="home">
+    <div class="container">
+
+    <div class="jumbotron">
+    <input ng-model='x' placeholder="x piont"> Long = X
+    <input ng-model='y' placeholder="y piont"> Lat = Y
+    <button class="btn btn-success" ng-click='yamYabasha()'>send</button>
+</div>
+    <section class="jumbotron">
+        <div ng-if="climateData == 'yam'" >
+            <div class="blue">Sea</div>
+        </div>
+  
+        <div ng-if="climateData == 'yabasah'" >
+                <div class="green">Yabasha</div>
+        </div>
+    </section>
+
+    <div class="jumbotron">
+        coenter: YAM: {{yamCount}} | YABASHA: {{yabashaCount}} 
+        <br>
+        {{error}}
+    </div>
+</div>
+
+        
+</div>

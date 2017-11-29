@@ -1,0 +1,1 @@
+var yam = angular.module('yamYabasha', ['ngRoute']);
